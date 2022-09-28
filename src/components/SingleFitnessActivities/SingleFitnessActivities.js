@@ -1,7 +1,6 @@
 import React from "react";
 
-const SingleFitnessActivities = ({ fitness }) => {
-  console.log(fitness);
+const SingleFitnessActivities = ({ fitness, handleAddToList }) => {
   const { activitesName, age, description, img, timeRequired } = fitness;
   return (
     <div>
@@ -13,9 +12,14 @@ const SingleFitnessActivities = ({ fitness }) => {
           <h2 className="card-title">{activitesName}</h2>
           <p>If a dog chews shoes whose shoes does he in choose?</p>
           <h3 className="font-medium">For Age: {age}</h3>
-          <h3 className="font-medium">Time required: {timeRequired}</h3>
+          <h3 className="font-medium">Time required: {timeRequired}s</h3>
           <div className="card-actions">
-            <button className="btn btn-primary w-full">Add to list</button>
+            <button
+              onClick={() => handleAddToList(fitness)}
+              className="btn btn-primary w-full"
+            >
+              Add to list
+            </button>
           </div>
         </div>
       </div>

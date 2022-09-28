@@ -1,10 +1,18 @@
 import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
+import ExerciseDetails from "../ExerciseDetails/ExerciseDetails";
 import SingleFitnessActivities from "../SingleFitnessActivities/SingleFitnessActivities";
 
 const FitnessActivities = () => {
   const [fitnessActivities, setFitnessActivities] = useState([]);
+
+  const [exerciseTime, setExerciseTime] = useState([]);
+
+  const handleAddToList = (fitness) => {
+    const newExerciseTime = [...exerciseTime, fitness];
+    setExerciseTime(newExerciseTime);
+  };
 
   useEffect(() => {
     fetch("gymFitness.json")
@@ -12,6 +20,7 @@ const FitnessActivities = () => {
       .then((data) => setFitnessActivities(data))
       .catch((err) => console.log(err));
   }, []);
+
   return (
     <div className="grid lg:grid-cols-4 sm:grid-cols-1">
       <div className="lg:col-span-3 sm:col-span-1 w-[85%] mx-auto ">
@@ -24,17 +33,18 @@ const FitnessActivities = () => {
           </h3>
         </div>
 
-        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 ">
+        <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 mb-5 ">
           {fitnessActivities.map((fitness) => (
             <SingleFitnessActivities
               key={fitness.id}
               fitness={fitness}
+              handleAddToList={handleAddToList}
             ></SingleFitnessActivities>
           ))}
         </div>
       </div>
       <div className="col-span-1">
-        <h1>side</h1>
+        <ExerciseDetails exerciseTime={exerciseTime}></ExerciseDetails>
       </div>
     </div>
   );
