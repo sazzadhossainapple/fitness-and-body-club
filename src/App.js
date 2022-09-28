@@ -1,10 +1,10 @@
 import "./App.css";
+import FitnessActivities from "./components/FitnessActivities/FitnessActivities";
 
 function App() {
   return (
     <div>
-      <h1>The Fitness & Body Club</h1>
-      <p>fiteness</p>
+      <FitnessActivities></FitnessActivities>
     </div>
   );
 }
