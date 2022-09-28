@@ -10,10 +10,14 @@ const SingleFitnessActivities = ({ fitness, handleAddToList }) => {
         </figure>
         <div className="card-body">
           <h2 className="card-title">{activitesName}</h2>
-          <p>If a dog chews shoes whose shoes does he in choose?</p>
+          <p>
+            {description.length >= 80
+              ? `${description.slice(0, 80)} ...More`
+              : "no data found"}
+          </p>
           <h3 className="font-medium">For Age: {age}</h3>
           <h3 className="font-medium">Time required: {timeRequired}s</h3>
-          <div className="card-actions">
+          <div className="card-actions mt-4">
             <button
               onClick={() => handleAddToList(fitness)}
               className="btn btn-primary w-full"

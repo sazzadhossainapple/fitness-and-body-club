@@ -1,17 +1,17 @@
 [
   {
     "id": 1,
-    "activitesName": "Push Up",
+    "activitesName": "Push-Ups",
     "img": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "description": "",
+    "description": "Contract your abs and tighten your core by pulling your belly button toward your spine. Inhale as you slowly bend your elbows and lower yourself to the floor, until your elbows are at a 90-degree angle. Exhale while contracting your chest muscles and pushing back up through your hands, returning to the start position",
     "age": "25-30",
     "timeRequired": 33
   },
   {
     "id": 2,
     "activitesName": "Dumbbell",
-    "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "description": "",
+    "img": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Best Dumbbell Exercises for Building Muscle. Develop total-body strength and build maximum muscle mass with a simple set of dumbbells.",
     "age": "27-30",
     "timeRequired": 45
   },
@@ -19,31 +19,31 @@
     "id": 3,
     "activitesName": "Cardio Treadmill",
     "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "description": "",
+    "description": "Treadmill exercises provide exceptional cardiovascular exercise that can significantly improve heart health. In fact, treadmill workouts are a popular form of cardio exercise due to the ability to maintain a steady heart rate throughout the entire exercise.",
     "age": "26-30",
     "timeRequired": 55
   },
   {
     "id": 4,
-    "activitesName": "Cycle Trainnig",
+    "activitesName": "Cycle Training",
     "img": "https://images.pexels.com/photos/260409/pexels-photo-260409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "description": "",
+    "description": "Lunges are a great exercise for cyclists who want to improve their on-bike strength. Simple and straightforward, lunges work every muscle in the lower body, targeting the hips, quads and hamstrings. The humble lunge is perfect for those wanting to workout at home.",
     "age": "25-33",
     "timeRequired": 36
   },
   {
     "id": 5,
-    "activitesName": "Body Builder Weight Traning",
-    "img": "https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "description": "",
+    "activitesName": "Boxing Exercise",
+    "img": "https://images.pexels.com/photos/2204203/pexels-photo-2204203.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "Land with your feet in a slightly staggered boxing stance. Immediately punch the heavy bag with a straight punch from your left then your right hand. Follow the straight punches with a left then right hook. Continue the exercise series, completing as many full rounds as possible in 45 seconds.",
     "age": "27-30",
-    "timeRequired": 29
+    "timeRequired": 45
   },
   {
     "id": 6,
     "activitesName": "Battle Rope",
     "img": "https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "description": "",
+    "description": "Battle ropes target most of the muscles in your body, including those in your abdominals, shoulders, arms, upper and lower back, and lower body. If you’re looking to target a specific area, you can change how you swing the ropes.",
     "age": "25-30",
     "timeRequired": 51
   }
