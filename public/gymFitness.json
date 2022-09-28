@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "activitesName": "Push Up",
+    "img": "https://images.pexels.com/photos/2294361/pexels-photo-2294361.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "",
+    "age": "25-30",
+    "timeRequired": 33
+  },
+  {
+    "id": 2,
+    "activitesName": "Dumbbell",
+    "img": "https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "",
+    "age": "27-30",
+    "timeRequired": 45
+  },
+  {
+    "id": 3,
+    "activitesName": "Cardio Treadmill",
+    "img": "https://images.pexels.com/photos/1954524/pexels-photo-1954524.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "",
+    "age": "26-30",
+    "timeRequired": 55
+  },
+  {
+    "id": 4,
+    "activitesName": "Cycle Trainnig",
+    "img": "https://images.pexels.com/photos/260409/pexels-photo-260409.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "",
+    "age": "25-33",
+    "timeRequired": 36
+  },
+  {
+    "id": 5,
+    "activitesName": "Body Builder Weight Traning",
+    "img": "https://images.pexels.com/photos/38630/bodybuilder-weight-training-stress-38630.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "",
+    "age": "27-30",
+    "timeRequired": 29
+  },
+  {
+    "id": 6,
+    "activitesName": "Battle Rope",
+    "img": "https://images.pexels.com/photos/3253501/pexels-photo-3253501.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "description": "",
+    "age": "25-30",
+    "timeRequired": 51
+  }
+]
