@@ -1,6 +1,7 @@
 import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import Img from "../../images/sazzad.jpg";
 
 const UserDetails = () => {
   return (
@@ -8,12 +9,11 @@ const UserDetails = () => {
       <div className="flex gap-2">
         <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
           <div className="w-10 rounded-full">
-            <img src="https://placeimg.com/80/80/people" alt="" />
+            <img src={Img} alt="" />
           </div>
         </label>
         <div>
           <h3 className="text-lg font-medium ">Sazzad Hossain</h3>
-          <p className="text-base">Web Developer</p>
           <p className="text-gray-400 ">
             <small>
               <FontAwesomeIcon icon={faLocationDot} />

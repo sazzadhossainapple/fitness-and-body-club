@@ -33,7 +33,7 @@ const ExerciseDetails = ({ exerciseTime }) => {
   };
 
   return (
-    <div className="lg:mt-7 sticky top-0 p-5">
+    <div className="lg:mt-5 sticky top-0 p-5">
       <UserDetails></UserDetails>
       <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
       <div className="mt-5">
@@ -42,7 +42,7 @@ const ExerciseDetails = ({ exerciseTime }) => {
           <h2 className="text-base font-medium">Exercise time</h2>
           <p>{totalTimeRequired} seconds</p>
         </div>
-        <div className="mt-6 bg-slate-50 p-4 rounded-md flex justify-between">
+        <div className="mt-6 mb-10 bg-slate-50 p-4 rounded-md flex justify-between">
           <h2 className="text-base font-medium">Break time</h2>
           <p>{getStoreData} seconds</p>
         </div>
