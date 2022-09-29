@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { ToastContainer, toast } from "react-toastify";
 import BreakTime from "../BreakTime/BreakTime";
 import UserDetails from "../UserDetails/UserDetails";
 
@@ -24,6 +25,13 @@ const ExerciseDetails = ({ exerciseTime }) => {
     localStorage.setItem("break-time", JSON.stringify(event.target.value));
   };
 
+  // toast message
+  const showToastMessage = () => {
+    toast.success("Congratulations, your activity is completed!", {
+      position: toast.POSITION.TOP_RIGHT,
+    });
+  };
+
   return (
     <div className="mt-7 sticky top-0 p-5">
       <UserDetails></UserDetails>
@@ -40,7 +48,10 @@ const ExerciseDetails = ({ exerciseTime }) => {
         </div>
       </div>
       <div className="my-4">
-        <button className="btn btn-primary w-full ">Activity Completed</button>
+        <button onClick={showToastMessage} className="btn btn-info w-full ">
+          Activity Completed
+        </button>
+        <ToastContainer />
       </div>
     </div>
   );

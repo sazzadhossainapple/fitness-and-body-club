@@ -13,10 +13,11 @@ const UserDetails = () => {
         </label>
         <div>
           <h3 className="text-lg font-medium ">Sazzad Hossain</h3>
-          <p className="text-gray-400">
+          <p className="text-base">Web Developer</p>
+          <p className="text-gray-400 ">
             <small>
               <FontAwesomeIcon icon={faLocationDot} />
-              Mymenshing, Bangladesh
+              <span> Mymenshing, Bangladesh</span>
             </small>
           </p>
         </div>
@@ -30,7 +31,7 @@ const UserDetails = () => {
         </span>
         <span>
           <h3>
-            <span className="text-2xl font-medium">5.8</span>inc
+            <span className="text-2xl font-medium">5.8</span>
           </h3>
           <p>Height</p>
         </span>

@@ -20,7 +20,7 @@ const SingleFitnessActivities = ({ fitness, handleAddToList }) => {
           <div className="card-actions mt-4">
             <button
               onClick={() => handleAddToList(fitness)}
-              className="btn btn-primary w-full"
+              className="btn btn-info  w-full"
             >
               Add to list
             </button>
