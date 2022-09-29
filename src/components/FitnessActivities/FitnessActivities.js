@@ -2,6 +2,7 @@ import { faDumbbell } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React, { useEffect, useState } from "react";
 import ExerciseDetails from "../ExerciseDetails/ExerciseDetails";
+import QuestionAndAnswer from "../QuestionAndAnswer/QuestionAndAnswer";
 import SingleFitnessActivities from "../SingleFitnessActivities/SingleFitnessActivities";
 
 const FitnessActivities = () => {
@@ -29,9 +30,7 @@ const FitnessActivities = () => {
             <FontAwesomeIcon icon={faDumbbell} /> The{" "}
             <span className="text-cyan-500">Fitness </span> & Body Club
           </h1>
-          <h3 className="text-xl font-bold mb-6">
-            Age Select today’s exercise
-          </h3>
+          <h3 className="text-xl font-bold mb-6">Select today’s exercise</h3>
         </div>
 
         <div className="grid md:grid-cols-3 sm:grid-cols-1 gap-4 mb-5 ">
@@ -43,6 +42,7 @@ const FitnessActivities = () => {
             ></SingleFitnessActivities>
           ))}
         </div>
+        <QuestionAndAnswer></QuestionAndAnswer>
       </div>
       <div className="col-span-1">
         <ExerciseDetails exerciseTime={exerciseTime}></ExerciseDetails>

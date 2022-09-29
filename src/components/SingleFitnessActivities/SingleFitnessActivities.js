@@ -1,6 +1,7 @@
 import React from "react";
 
-const SingleFitnessActivities = ({ fitness, handleAddToList }) => {
+const SingleFitnessActivities = (props) => {
+  const { fitness, handleAddToList } = props;
   const { activitesName, age, description, img, timeRequired } = fitness;
   return (
     <div>

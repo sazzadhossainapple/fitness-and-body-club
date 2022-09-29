@@ -33,7 +33,7 @@ const ExerciseDetails = ({ exerciseTime }) => {
   };
 
   return (
-    <div className="mt-7 sticky top-0 p-5">
+    <div className="lg:mt-7 sticky top-0 p-5">
       <UserDetails></UserDetails>
       <BreakTime handleBreakTime={handleBreakTime}></BreakTime>
       <div className="mt-5">
